@@ -1,1 +1,3 @@
-  test02 PASSED (Public)
+  test02 FAILED (Public)
+    Output is different
+    Wrong Won Message

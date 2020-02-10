@@ -1,0 +1,9 @@
+* Clean up .class files
+./MasterMild.class
+./TheOne.class
+* Compile MasterMild
+* Run MasterMild
+Exception in thread "main" java.lang.NullPointerException
+	at MasterMild.checkCode(MasterMild.java:120)
+	at TheOne.bind(TheOne.java:11)
+	at MasterMild.main(MasterMild.java:32)
