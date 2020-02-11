@@ -1,1 +1,10 @@
-./run-tests.sh: line 58: ./run.sh: Permission denied
+* Clean up .class files
+./MasterMild.class
+./TheOne.class
+* Compile MasterMild
+* Run MasterMild
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at MasterMild.retrieveGuess(MasterMild.java:183)
+	at TheOne.bind(TheOne.java:11)
+	at MasterMild.main(MasterMild.java:28)
