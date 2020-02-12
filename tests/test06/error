@@ -1,10 +1,12 @@
 * Clean up .class files
 ./MasterMild.class
+./GameData.class
 ./TheOne.class
 * Compile MasterMild
 * Run MasterMild
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at MasterMild.retrieveGuess(MasterMild.java:183)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at MasterMild.calculateHD(MasterMild.java:243)
+	at MasterMild.decideGameTurn(MasterMild.java:178)
 	at TheOne.bind(TheOne.java:11)
-	at MasterMild.main(MasterMild.java:28)
+	at MasterMild.initiateGameplay(MasterMild.java:103)
+	at MasterMild.main(MasterMild.java:24)

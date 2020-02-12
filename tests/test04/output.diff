@@ -1,8 +1,5 @@
-2a3
-> >> Yikes! Invalid input.
-4d4
+4,7d3
 < >> Yikes! Invalid input
-6,8d5
+< >> Guess the 4-digit secret code (10):
 < 1234
 < 
-< >> Correct - You won!
